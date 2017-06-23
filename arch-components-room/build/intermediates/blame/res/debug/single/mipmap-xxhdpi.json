@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/arch-components-room/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/arch-components-room/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/arch-components-room/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/arch-components-room/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

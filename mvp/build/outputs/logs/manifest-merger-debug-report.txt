@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+application
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:5:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/ericmaxwell/.android/build-cache/778ae72b35f866dbb6f1ff636abe0758b7ecddc9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/ericmaxwell/.android/build-cache/da2c635e258b928cd6f9b8b48ba1de42c4388583/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/ericmaxwell/.android/build-cache/df836d4c824de987aceed36695509dc6ff235335/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/ericmaxwell/.android/build-cache/588e396ebf95f6cb70d9017f60d49f2a52864a14/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/ericmaxwell/.android/build-cache/8af650901be621265a0453365f282538383862a0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/ericmaxwell/.android/build-cache/27bc437bde943321b111c5951205c29cd1c5e8d1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/ericmaxwell/.android/build-cache/c45464a32a040ad53afc790472bb01db29992bfb/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/ericmaxwell/.android/build-cache/06e70b2727a30a0c0e62dd5326d027c47ab5a8e6/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/ericmaxwell/.android/build-cache/ef0c028e83d94ee65a85c58bce9d22d41ec4e4a7/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:10:9-40
+activity#com.acme.tictactoe.view.TicTacToeActivity
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:11:9-16:20
+	android:screenOrientation
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:11:58-94
+	android:name
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:11:19-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/ericmaxwell/.android/build-cache/778ae72b35f866dbb6f1ff636abe0758b7ecddc9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] /Users/ericmaxwell/.android/build-cache/da2c635e258b928cd6f9b8b48ba1de42c4388583/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/ericmaxwell/.android/build-cache/df836d4c824de987aceed36695509dc6ff235335/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/ericmaxwell/.android/build-cache/588e396ebf95f6cb70d9017f60d49f2a52864a14/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/ericmaxwell/.android/build-cache/8af650901be621265a0453365f282538383862a0/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/ericmaxwell/.android/build-cache/27bc437bde943321b111c5951205c29cd1c5e8d1/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/ericmaxwell/.android/build-cache/c45464a32a040ad53afc790472bb01db29992bfb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/ericmaxwell/.android/build-cache/06e70b2727a30a0c0e62dd5326d027c47ab5a8e6/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /Users/ericmaxwell/.android/build-cache/ef0c028e83d94ee65a85c58bce9d22d41ec4e4a7/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/ericmaxwell/.android/build-cache/778ae72b35f866dbb6f1ff636abe0758b7ecddc9/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml
+		INJECTED from /Users/ericmaxwell/Projects/andevcon17/android-architecture-samples/mvp/src/main/AndroidManifest.xml

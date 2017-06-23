@@ -1,0 +1,74 @@
+a io.realm.annotations.PrimaryKey 0
+p com.acme.realmudi.model 0
+f 0 0/TodoItem id
+a io.realm.annotations.Required 1
+f 1 0/TodoItem id
+f 1 0/TodoItem createdDate
+f 1 0/TodoItem text
+a org.jetbrains.annotations.Nullable 2
+f 2 0/TodoItem id
+m 2 0/TodoItem getId
+f 2 0/TodoItem text
+m 2 0/TodoItem getText
+a org.jetbrains.annotations.NotNull 3
+p com.acme.realmudi.view 1
+f 3 1/TodoView store$delegate
+m 3 1/TodoView getStore
+f 3 1/TodoView addTodoText$delegate
+m 3 1/TodoView getAddTodoText
+f 3 1/TodoView recyclerView$delegate
+m 3 1/TodoView getRecyclerView
+f 3 1/TodoView toolbar$delegate
+m 3 1/TodoView getToolbar
+f 3 1/TodoView addItemFab$delegate
+m 3 1/TodoView getAddItemFab
+f 3 1/TodoView model
+m 3 1/TodoView getModel
+f 3 1/TodoView onValueChecked
+m 3 1/TodoView getOnValueChecked
+p com.acme.realmudi.view.TodoView.addTodoText 2
+m 3 2/2 invoke
+p com.acme.realmudi.view.TodoView.recyclerView 3
+m 3 3/2 invoke
+p com.acme.realmudi.view.TodoView.toolbar 4
+m 3 4/2 invoke
+p com.acme.realmudi.view.TodoView.addItemFab 5
+m 3 5/2 invoke
+p com.acme.realmudi.controller 6
+d 6/Todo_RealmKt
+p com.acme.realmudi.controller.Todo_RealmKt.addItem 7
+d 7/1
+p com.acme.realmudi.controller.Todo_RealmKt.deleteAllChecked 8
+d 8/1
+p com.acme.realmudi.controller.Todo_RealmKt.setAllCheckedValue 9
+d 9/1
+p com.acme.realmudi.controller.Todo_RealmKt.setSingleCheckedValue 10
+d 10/1
+p com.acme.realmudi.controller.Todo_RealmKt.inBackroundTx 11
+d 11/1
+d 0/TodoItem
+d 1/TodoView
+p com.acme.realmudi.view.TodoView.bindModel 12
+d 12/1
+d 12/2
+p com.acme.realmudi.view.TodoViewKt.sam.ItemSelectionChangeDelegate 13
+d 13/43fb2589
+p com.acme.realmudi.view.TodoView.store 14
+d 14/2
+d 2/2
+d 3/2
+d 4/2
+d 5/2
+p com.acme.realmudi.view.TodoView.onValueChecked 15
+d 15/1
+d 0/TodoStore
+p com.acme.realmudi.model.TodoStore.addItem 16
+d 16/1
+p com.acme.realmudi.model.TodoStore.deleteAllChecked 17
+d 17/1
+p com.acme.realmudi.model.TodoStore.setAllCheckedValue 18
+d 18/1
+p com.acme.realmudi.model.TodoStore.setSingleCheckedValue 19
+d 19/1
+p com.acme.realmudi.model.TodoStore.inBackroundTx 20
+d 20/1
