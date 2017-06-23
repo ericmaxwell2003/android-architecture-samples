@@ -1,4 +1,0 @@
-#Wed May 10 12:23:35 EDT 2017
-base.0=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
-renamed.0=classes.dex
-file.0=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex

@@ -1,7 +1,0 @@
-#Wed May 10 12:14:52 EDT 2017
-base.0=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c3466e414c4bb6d57140dc1990a54edbaf440ef0
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c32dba1e179a43100428a7069cf187a8dbf1d027/classes.dex
-base.1=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c32dba1e179a43100428a7069cf187a8dbf1d027
-file.0=/Users/ericmaxwell/Projects/RealmComponentTodo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c3466e414c4bb6d57140dc1990a54edbaf440ef0/classes.dex
