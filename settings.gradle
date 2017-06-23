@@ -1,1 +1,1 @@
-include ':mvc', ':mvp', ':mvvm', ':arch-components-room', ':arch-components-realm', ':uni-directional-realm'
+include ':mvc', ':mvp', ':mvvm', ':arch-components-mvvm', ':arch-components-room', ':arch-components-realm', ':uni-directional-realm'
