@@ -13,7 +13,7 @@ import com.acme.tictactoe.R;
 import com.acme.tictactoe.databinding.TictactoeBinding;
 import com.acme.tictactoe.viewmodel.TicTacToeViewModel;
 
-public class TicTacToeActivity extends LifecycleActivity {
+public class TicTacToeActivity extends AppCompatActivity {
 
     private TicTacToeViewModel viewModel;
 

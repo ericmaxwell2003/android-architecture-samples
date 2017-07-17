@@ -1,11 +1,11 @@
 package com.acme.tictactoe.presenter;
 
 
-public interface Presenter {
+public abstract class Presenter {
 
-    void onCreate();
-    void onPause();
-    void onResume();
-    void onDestroy();
+    public void onCreate() {}
+    public void onPause() {}
+    public void onResume() {}
+    public void onDestroy() {}
 
 }

@@ -6,7 +6,7 @@ import android.databinding.ObservableField;
 import com.acme.tictactoe.model.Board;
 import com.acme.tictactoe.model.Player;
 
-public class TicTacToeViewModel implements ViewModel {
+public class TicTacToeViewModel extends ViewModel {
 
     private Board model;
 
@@ -19,22 +19,8 @@ public class TicTacToeViewModel implements ViewModel {
 
     @Override
     public void onCreate() {
-
-    }
-
-    @Override
-    public void onPause() {
-
-    }
-
-    @Override
-    public void onResume() {
-
-    }
-
-    @Override
-    public void onDestroy() {
-
+        super.onCreate();
+        model = new Board();
     }
 
     public void onResetSelected() {
@@ -45,7 +31,9 @@ public class TicTacToeViewModel implements ViewModel {
 
     public void onClickedCellAt(int row, int col) {
         Player playerThatMoved = model.mark(row, col);
-        cells.put("" + row + col, playerThatMoved == null ? null : playerThatMoved.toString());
+        if(playerThatMoved != null) {
+            cells.put("" + row + col, playerThatMoved.toString());
+        }
         winner.set(model.getWinner() == null ? null : model.getWinner().toString());
     }
 

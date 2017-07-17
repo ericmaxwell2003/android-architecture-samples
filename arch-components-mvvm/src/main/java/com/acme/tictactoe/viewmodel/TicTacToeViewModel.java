@@ -26,7 +26,9 @@ public class TicTacToeViewModel extends ViewModel {
 
     public void onClickedCellAt(int row, int col) {
         Player playerThatMoved = model.mark(row, col);
-        cells.put("" + row + col, playerThatMoved == null ? null : playerThatMoved.toString());
+        if(playerThatMoved != null) {
+            cells.put("" + row + col, playerThatMoved.toString());
+        }
         winner.set(model.getWinner() == null ? null : model.getWinner().toString());
     }
 

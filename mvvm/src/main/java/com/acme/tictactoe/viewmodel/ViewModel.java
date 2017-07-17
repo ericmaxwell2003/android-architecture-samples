@@ -1,10 +1,10 @@
 package com.acme.tictactoe.viewmodel;
 
-public interface ViewModel {
+public abstract class ViewModel {
 
-    void onCreate();
-    void onPause();
-    void onResume();
-    void onDestroy();
+    public void onCreate() {}
+    public void onPause() {}
+    public void onResume() {}
+    public void onDestroy() {}
 
 }

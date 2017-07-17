@@ -4,7 +4,7 @@ import com.acme.tictactoe.model.Board;
 import com.acme.tictactoe.model.Player;
 import com.acme.tictactoe.view.TicTacToeView;
 
-public class TicTacToePresenter implements Presenter {
+public class TicTacToePresenter extends Presenter {
 
     private TicTacToeView view;
     private Board model;
@@ -17,21 +17,6 @@ public class TicTacToePresenter implements Presenter {
     @Override
     public void onCreate() {
         model = new Board();
-    }
-
-    @Override
-    public void onPause() {
-
-    }
-
-    @Override
-    public void onResume() {
-
-    }
-
-    @Override
-    public void onDestroy() {
-
     }
 
     public void onButtonSelected(int row, int col) {
@@ -51,6 +36,4 @@ public class TicTacToePresenter implements Presenter {
         view.clearButtons();
         model.restart();
     }
-
-
 }

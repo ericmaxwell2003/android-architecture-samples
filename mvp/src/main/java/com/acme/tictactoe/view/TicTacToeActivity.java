@@ -80,8 +80,7 @@ public class TicTacToeActivity extends AppCompatActivity implements TicTacToeVie
         presenter.onButtonSelected(row, col);
 
     }
-
-    @Override
+// Implemented View buttons
     public void setButtonText(int row, int col, String text) {
         Button btn = (Button) buttonGrid.findViewWithTag("" + row + col);
         if(btn != null) {
